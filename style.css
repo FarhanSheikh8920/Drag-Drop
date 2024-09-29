@@ -1,0 +1,61 @@
+.container{
+    width:  100%;
+    min-height: 97vh;
+    background-image: url("https://downloadwap.com/thumbs2/wallpapers/p2ls/2019/patterns/43/l4tyd10613615494.jpg");
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#left,#right{
+    min-height: 150px;
+    width: 300px;
+    display: inline;
+    margin: 20px;
+    border: 2px dashed white;
+}
+.list{
+    background-color: rgb(252, 249, 249);
+    height: 10px;
+    margin: 10px;   
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    cursor: grab;
+}
+.list img{
+    height: 20px;
+   margin-left: 200px;
+   cursor: pointer;
+}
+.in{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+} 
+#itemInput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 350px;
+}
+#addButton {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+#addButton:hover{
+  background-color: darkblue;  
+}
+h1{
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.404);
+    padding: 10px;
+    text-align: center;
+    border: dashed black;
+    color: white;
+}
